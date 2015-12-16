@@ -18,6 +18,9 @@
 $(function () {
 	$('#defaultCountdown').countdown({until: new Date(2016, 0, 18)}); 
 	//Replace above date with your own, to find out more visit http://keith-wood.name/countdown.html
+	setTimeout(function(){
+		window.location.href = "http://blog.theprogrammingplanet.com";
+	},6000);
 });
 </script>
 <!--/JS-->
@@ -41,11 +44,7 @@ $(function () {
 			TheProgrammingPlanet <span class="yellow">Beyond the keyboard.</span>
 		</h1>
 		<p>Este sitio se encuentra <strong>en construcción</strong> pero estamos trabajando duro!<br/> ten paciencia :)</p>
-		<div id="defaultCountdown"></div>
-		<!--<form action="#">
-			<input type="text" name="email" id="email" value="Subscribe to fond out when we are done">
-			<input type="submit" value="GO!">
-		</form>-->		
+		<div id="defaultCountdown"></div>		
 	</div>
 	<!--/CONTAINER-->
 </div>
